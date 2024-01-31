@@ -1,0 +1,53 @@
+/* Login.css */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.btn-secondary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.dropdown-menu {
+  min-width: 160px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #f8f9fa;
+}
+
+/* Style for the logged-in state */
+.logged-in {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.logout-btn {
+  background-color: #dc3545;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+}
+
+/* Style for the login form */
+.login-form {
+  margin-top: 10px;
+}
+
+/* You can add more styles based on your application's design */

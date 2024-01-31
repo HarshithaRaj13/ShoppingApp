@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "caption": "Icon1",
+    "icon": "public/pic-1.png"
+  },
+  {
+    "id": 2,
+    "caption": "Icon2",
+    "icon": "public/pic-2.png"
+  },
+  {
+    "id": 3,
+    "caption": "Icon3",
+    "icon": "public/pic-3.png"
+  },
+  {
+    "id": 4,
+    "caption": "Icon4",
+    "icon": "public/pic-4.png"
+  }
+]
