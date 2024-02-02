@@ -1,53 +1,64 @@
 /* Login.css */
 
-.dropdown {
-  position: relative;
-  display: inline-block;
+.Valid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
 }
 
-.btn-secondary {
-  background-color: #007bff;
-  color: #fff;
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333; /* Dark gray color */
 }
 
-.dropdown-menu {
-  min-width: 160px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.inputs {
+  width: 300px;
+  margin-bottom: 20px;
 }
 
-.dropdown-item {
-  display: block;
+.form-control {
+  width: 100%;
   padding: 10px;
-  text-decoration: none;
-  color: #333;
-  cursor: pointer;
-}
-
-.dropdown-item:hover {
-  background-color: #f8f9fa;
-}
-
-/* Style for the logged-in state */
-.logged-in {
-  margin-top: 10px;
-  padding: 10px;
-  background-color: #28a745;
-  color: #fff;
+  margin-bottom: 10px;
+  border: 1px solid #ccc; /* Light gray border */
   border-radius: 5px;
 }
 
-.logout-btn {
-  background-color: #dc3545;
-  color: #fff;
-  padding: 5px 10px;
-  cursor: pointer;
+.form p {
+  color: #d9534f; /* Bootstrap danger color */
+  margin-bottom: 10px;
+}
+
+.button {
+  padding: 10px;
+  background-color: #5bc0de; /* Bootstrap info color */
+  color: #fff; /* White text color */
   border: none;
-  border-radius: 3px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-/* Style for the login form */
-.login-form {
-  margin-top: 10px;
+.button:hover {
+  background-color: #46b8da; /* Darker shade on hover */
 }
 
-/* You can add more styles based on your application's design */
+/* Styling for logged-in and logged-out states */
+.div > p {
+  margin-bottom: 10px;
+}
+
+.div > button {
+  padding: 8px;
+  background-color: #d9534f; /* Bootstrap danger color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.div > button:hover {
+  background-color: #c9302c; /* Darker shade on hover */
+}

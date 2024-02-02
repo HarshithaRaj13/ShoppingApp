@@ -50,3 +50,58 @@ export const ShopcontextProvider = (props) => {
     </ShopContext.Provider>
   );
 };
+
+// import "./Shop.css";
+// import React, { useState, useEffect } from "react";
+
+// export const Shop = () => {
+//   const [data, setData] = useState(null);
+//   const [loading, setLoading] = useState(true);
+//   const [error, setError] = useState(null);
+
+//   useEffect(() => {
+//     const fetchData = async () => {
+//       try {
+//         const response = await fetch(
+//           "https://jsonplaceholder.typicode.com/photos"
+//         );
+//         const result = await response.json();
+
+//         setData(result);
+//         setLoading(false);
+//       } catch (error) {
+//         setError(error);
+//         setLoading(false);
+//       }
+//     };
+
+//     fetchData();
+//   }, []); // Empty dependency array means this effect runs once after the initial render
+
+//   if (loading) {
+//     return <p>Loading...</p>;
+//   }
+
+//   if (error) {
+//     return <p>Error: {error.message}</p>;
+//   }
+
+//   return (
+//     <div>
+//       <h1>My Component</h1>
+//       {data.map((item) => (
+//         <div key={item.id}>
+//           <h2>{item.title}</h2>
+//           <img
+//             src={item.url}
+//             alt={item.title}
+//             style={{ Width: "50%", height: "50%" }}
+//           />
+//           <p> {item.albumId}</p>
+//           <p> {item.id}</p>
+//           <p> {item.thumbnailUrl}</p>
+//         </div>
+//       ))}
+//     </div>
+//   );
+// };
